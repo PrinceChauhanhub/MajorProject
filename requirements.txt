@@ -7,3 +7,5 @@ xgboost
 lightgbm
 ipykernel
 streamlit
+pdfkit
+jinja2
