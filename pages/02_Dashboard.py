@@ -27,16 +27,16 @@ def fig_to_base64(fig):
 # Helper function to clean emojis
 def clean_emojis(html):
     replacements = {
-        "📊": "Your Personalized Carbon Dashboard Report",
-        "🌱": "Estimated Carbon Footprint",
-        "🚶‍♂️": "Personal Profile",
-        "🚗": "Transport Overview",
-        "🗑": "Waste Management",
-        "⚡": "Energy Usage",
-        "🛒": "Consumption",
-        "📋": "Insights and Suggestions",
-        "✈️": "Air Travel",
-        "♻️": "Recycling",
+        "📊": "",
+        "🌱": "",
+        "🚶‍♂️": "",
+        "🚗": "",
+        "🗑": "",
+        "⚡": "",
+        "🛒": "",
+        "📋": "",
+        "✈️": "",
+        "♻️": "",
     }
     for emoji, text in replacements.items():
         html = html.replace(emoji, text)

@@ -52,7 +52,7 @@ with col1:
 
 with col2:
     st.markdown('<div class="team-member">', unsafe_allow_html=True)
-    st.image("Images/prince.jpg", width=130)
+    st.image("Images/sanskrati.jpeg", width=130)
     st.write("**Sanskrati Mishra**")
     st.write("Roll No: 2023073052")
     st.markdown("[LinkedIn](https://www.linkedin.com/in/sanskrati-mishra-13b94b21b/)", unsafe_allow_html=True)

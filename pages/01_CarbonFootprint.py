@@ -68,7 +68,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown('<div class="container">', unsafe_allow_html=True)
 
 # --- App title ---
-st.title("🌍 Carbon Footprint Calculator")
+st.title("🌍 Carbon Footprint Tracker")
 
 # --- Tabs ---
 tabs = ["👤 Personal", "🚗 Travel", "🗑 Waste", "⚡ Energy", "💊 Consumption"]
